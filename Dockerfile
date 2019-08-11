@@ -2,7 +2,7 @@ FROM debian:stretch
 
 LABEL maintainer="Alexis Pereda <alexis@pereda.fr>"
 LABEL version="1.0"
-LABEL description="toolchain for Debian stretch i386"
+LABEL description="toolchain for Debian buster i386"
 
 RUN  dpkg --add-architecture i386 \
 	&& apt update \
